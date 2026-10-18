@@ -8,9 +8,16 @@ Het speelveld van Running the Target (Smeetsweg 8, Zoeterwoude) tekenen, tellen 
 
 ## Inloggen
 
-Alleen beheerders kunnen tekenen en opslaan. Klik rechtsboven op **Inloggen** en vul je e-mailadres in.
-Je krijgt een mail met een inloglink en een code van 6 cijfers: tik op de link, of typ de code in de planner.
-Daarna blijf je op dat apparaat ingelogd. Bouwers hoeven niet in te loggen.
+Alleen beheerders kunnen tekenen en opslaan. Bouwers hoeven niet in te loggen.
+
+- **Met wachtwoord (dagelijks):** klik rechtsboven op **Inloggen**; je sleutelhanger vult e-mail en wachtwoord in met Face ID of Touch ID.
+- **Met mailcode (eerste keer of wachtwoord vergeten):** kies **Mail met code**. Je krijgt een mail met een code van 6 cijfers
+  en een inloglink. Typ de code in de planner (op iPad en iPhone in de beginscherm-app altijd de code gebruiken).
+- **Wachtwoord instellen:** ingelogd → klik op je naam rechtsboven → **Wachtwoord instellen of wijzigen**. Safari stelt een sterk
+  wachtwoord voor en bewaart het in de sleutelhanger.
+
+Daarna blijf je op dat apparaat ingelogd. Zet de planner als app op je beginscherm (Safari: deelknop → Zet op beginscherm)
+of in je Dock (Mac: Archief → Voeg toe aan Dock).
 
 Beheerders staan in Supabase (project RTT APP), tabel `public.rtt_veld_beheerder` (e-mailadres in kleine letters).
 
